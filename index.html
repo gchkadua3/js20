@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="half-circle" id="svg-1"></div>
+
+        <div class="iphone-container">
+            <div class="status-bar">
+               <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot-2"></div>
+                <div class="dot-2"></div>
+                <p>GS</p>
+               </div>
+               <p class="time">9:41 AM</p>
+               <div class="svg-row">
+                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M4.68955 10.8516V7.29908L6.50277 9.16056L4.68955 10.8516ZM6.58601 3.84041L4.68955 5.63882V2.23165L6.58601 3.84041ZM5.1451 6.50048L7.95913 3.84041L3.76051 0H3.66133V5.34133L0.811414 2.52481L0 3.32389L3.42907 6.50048L0 9.67659L0.811414 10.4757L3.66133 7.65915V13H3.84275L8 9.14997L5.1451 6.50048Z" fill="black"/>
+                    </svg>
+                    <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.99575 1.52088C7.93552 1.52088 9.70336 2.23545 11.0589 3.40718L12 2.36811C10.3946 0.974466 8.29789 0 5.99575 0C3.69711 0 1.6034 0.971507 0 2.36071L0.939148 3.40126C2.29364 2.23299 4.05848 1.52088 5.99575 1.52088ZM5.99575 4.52022C7.15832 4.52022 8.22042 4.94236 9.03961 5.6377L10.0352 4.53797C8.95164 3.60789 7.54217 3.00033 5.99575 3.00033C4.45233 3.00033 3.04386 3.60641 1.96126 4.53353L2.95539 5.63474C3.77408 4.94088 4.83469 4.52022 5.99575 4.52022ZM8.04348 6.73742C7.48919 6.27732 6.77546 5.95874 5.99525 5.95874C5.21654 5.95874 4.50381 6.27682 3.94952 6.73496L5.99525 9L8.04348 6.73742Z" fill="black"/>
+                        </svg>
+                        <svg width="25" height="10" viewBox="0 0 25 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9975 0.5H1.50246C0.672674 0.5 0 1.16802 0 2.00006V8.49994C0 9.3284 0.67338 10 1.50246 10H20.9975C21.8273 10 22.5 9.33198 22.5 8.49994V2.00006C22.5 1.1716 21.8266 0.5 20.9975 0.5ZM0.5 2.00006C0.5 1.44576 0.947213 1 1.50246 1H20.9975C21.5509 1 22 1.4482 22 2.00006V8.49994C22 9.05424 21.5528 9.5 20.9975 9.5H1.50246C0.949064 9.5 0.5 9.0518 0.5 8.49994V2.00006Z" fill="black"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 1.5C1.22386 1.5 1 1.72386 1 2V8.5C1 8.77614 1.22386 9 1.5 9H10V1.5H1.5Z" fill="black"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24.5 5.25C24.5 6.14064 23.8481 6.87745 23 7V3.5C23.8481 3.62255 24.5 4.35936 24.5 5.25Z" fill="black"/>
+                            </svg>
+                                                                        
+               </div>
+            </div>
+            <div class="circle-svg">
+                <div class="circle-orange"></div>               
+            </div>
+            <div class="two-texts">
+                <h1 class="first-text">Choose a Style</h1>
+                <h1 class="second-text">Customize your interface<br>
+                    Day or Night</h1>
+            </div>
+
+            <div class="switch-container">
+                <input type="checkbox" id="switch-toggle" class="switch-toggle" onchange="toggleDarkMode()"/>
+                <label for="switch-toggle" class="switch-label"></label>
+                <span class="switch-text switch-text-on">Light</span>
+                <span class="switch-text switch-text-off">Dark</span>
+              </div>
+        </div>
+        
+
+    <script src="./script.js"></script>
+</body>
+</html>
